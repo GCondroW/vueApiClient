@@ -26,5 +26,11 @@
 		});
 	}
 
-	getData(getUrl(apiUrl,urlParams));
+	const output=getData(getUrl(apiUrl,urlParams));
 </script>
+
+<template>
+    <p>
+      {{output}}
+    </p>
+</template>
